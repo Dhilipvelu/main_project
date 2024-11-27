@@ -6,9 +6,9 @@ import "./notification.css"
 
 
 
+
 function Mypost(){
-
-
+ 
     return(
         <>
         <div className="row notification">
