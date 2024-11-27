@@ -24,10 +24,7 @@ function Myprofile() {
     sethighlight(!highlightvideo);
     document.body.style.overflowY='auto';
 };
-const [isntoification,Setnotification]=useState(false)
-    const toggleimage=()=>{
-        Setnotification(!isntoification)
-    }
+
   return (
     <>
       <div className="row">
@@ -156,40 +153,40 @@ const [isntoification,Setnotification]=useState(false)
 
           <div className="row mt-3">
             <div className="col postimages p-0">
-              <Link>
-                <img  onClick={toggleimage} src={Profileimage} alt="" />
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
+              </Link >
+              <Link to="/post"> 
+                <img  src={Profileimage} alt="postimage" />
               </Link>
-              <Link>
-                <img onClick={toggleimage} src={Profileimage} alt="" />
-              </Link>
-              <Link>
-                <img  onClick={toggleimage} src={Profileimage} alt="" />
-              </Link>
-            </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col postimages p-0">
-              <Link>
-                <img onClick={toggleimage} src={Profileimage} alt="" />
-              </Link>
-              <Link>
-                <img  onClick={toggleimage} src={Profileimage} alt="" />
-              </Link>
-              <Link>
-                <img onClick={toggleimage} src={Profileimage} alt="" />
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
               </Link>
             </div>
           </div>
           <div className="row mt-3">
             <div className="col postimages p-0">
-              <Link>
-                <img onClick={toggleimage}  src={Profileimage} alt="" />
+              <Link to="/post">
+                <img  src={Profileimage} alt="postimage" />
               </Link>
-              <Link>
-                <img  onClick={toggleimage} src={Profileimage} alt="" />
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
               </Link>
-              <Link>
-                <img  onClick={toggleimage} src={Profileimage} alt="" />
+              <Link to="/post">
+                <img  src={Profileimage} alt="postimage" />
+              </Link>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col postimages p-0">
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
+              </Link>
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
+              </Link>
+              <Link to="/post">
+                <img   src={Profileimage} alt="postimage" />
               </Link>
             </div>
           </div>
@@ -250,94 +247,14 @@ const [isntoification,Setnotification]=useState(false)
   
         </>
       )}
-
+{/* 
 {isntoification &&(
                     <>
-                    <div className="row notification">
-                        <div className="col-2"></div>
-                        <div className="col-6 notificationimage">
-                            <img src={Profileimage} alt="" />
-                        </div>
-                        <div className="col-3 comments">
-                            <div className="row commentsec">
-                                <div className="col-2 p-0">
-                                    <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                    <Link>lovely__dhilip</Link>
-                                    <p>chennai,Tamilnadu</p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-                            <div className="row mt-2 ">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-                            <div className="row mt-2">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-                            <div className="row mt-2">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-                            <div className="row mt-2">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-                            <div className="row mt-2">
-                                <div className="col-2 p-0">
-                                        <Link><img src={Profileimage} alt="" /></Link>
-                                </div>
-                                <div className="col comments1">
-                                        <Link>lovely__dhilip</Link>
-                                        <p>🤩🤩🤩</p>
-                                        <Link style={{fontSize:"12px",marginTop:"-10px",position:"absolute"}}>1 Like <span style={{marginLeft:"15px"}}>reply</span></Link>
-                                 </div>
-                            </div>
-
-
-                        </div>
-                        <p className="closebtn" onClick={toggleimage}><a href="#"><IoClose/></a></p>
-
-                    </div>
+                    
                     
                     </>
 
-                )}
+                )} */}
     </>
   );
 }

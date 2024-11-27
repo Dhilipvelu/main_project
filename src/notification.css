@@ -37,11 +37,12 @@ hr{
     margin-left: 15px;
 }
 .notification{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgb(208, 159, 255);
-    top: 0;
+    /* background-position:center; */
     left: 12px;
+    top: 0;
     position: absolute;
     z-index: 1;
 }
