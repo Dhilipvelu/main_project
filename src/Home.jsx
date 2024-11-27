@@ -11,7 +11,7 @@ import './Home.css'
 import suriya from "./images/suriya.jpeg";
 import vikram from "./images/vikram.jpeg";
 import ajith from "./images/ajith.jpeg";
-import vijay from "./images/vijay.jpeg";
+import vijay from "./images/Vijay.jpeg";
 import vijaysethupathi from "./images/vijaysethupathi.jpeg";
 import rajini from "./images/rajini.jpeg";
 import kamal from "./images/kamal.jpeg";
