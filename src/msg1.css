@@ -1,0 +1,118 @@
+.chat-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-left: 340px;
+    top: 0;
+    /* background-color: aqua; */
+}
+.sub-container{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.header{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color:mediumpurple;
+    /* color: white; */
+}
+.header img{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.header span{
+    position: absolute;
+    
+}
+.header p{
+    margin: 0;
+    color: mintcream;
+}
+.header p:nth-child(1){
+    margin-top: 10px;
+}
+.header p:nth-child(2){
+    font-size: 12px;
+}
+.icons{
+    height: 70px;
+    width: 53%;
+    text-align: right;
+    padding-top: 17px;
+}
+.icons a{
+    margin: 10px;
+    font-size: 20px;
+    color: mintcream;
+}
+.chathistory{
+    height: 625px;
+    padding-top: 80px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.text p{
+    margin: 5px;
+    background-color:slateblue;
+    color: mintcream;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+.reply {
+    width:62%;
+}
+.reply p{
+    float: right;
+    margin-bottom: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    color: mintcream;
+    background-color:slateblue;
+
+    
+}
+.msgbox input{
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 10px;
+    margin-left: 15px;
+    background: transparent;
+    margin-top: -2px;
+}
+.msgbox input::-webkit-input-placeholder{
+    color: aliceblue;
+}
+.msgbox{
+    margin-left: 12px;
+    width: 59%;
+    height: 65px;
+    position: fixed;
+    /* margin-top: -100px; */
+    background-color:mediumpurple;
+    display: flex;
+    align-items: center;
+    
+}
+.msgbox span{
+    /* margin-top: -45px; */
+    rotate: 40deg;
+    
+}
+.msgbox a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: -35px;
+    font-size: 20px;
+    /* background-color: aqua; */
+}

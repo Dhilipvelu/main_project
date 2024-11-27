@@ -1,0 +1,42 @@
+.morepopup{
+    position: fixed;
+    bottom: 0;
+    width: 16%;
+    height: 50%;
+    /* margin-left: 10px; */
+    margin-bottom: 80px;
+    /* display: flex; */
+    background-color: rgb(29, 76, 117);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.more-items{
+    display: flex;
+    flex-direction: column;
+}
+.more-items a{
+    text-decoration: none;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.more-items a:hover{
+    background-color: darkred;
+    /* height:100%; */
+    border-radius: 10px;
+    color: white;
+}
+.close{
+    /* background-color: beige; */
+    position:absolute;
+    color: white;
+    width: 100%;
+    font-size: 13px;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+}

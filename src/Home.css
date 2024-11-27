@@ -1,0 +1,90 @@
+.storyitems{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    z-index: 1;
+}
+.carousel-inner{
+    padding: 20px 0 20px 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+
+/* .carousel-item{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100%;
+    height: 100%; */
+    /* background-color: aqua; */
+/* } */
+    
+.carousel-item img {
+/* margin: 10px 0 10px 0; */
+ object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 30%;
+  height: 100%;
+}
+
+
+.closebtn{
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.closebtn a{
+    color: white;
+    margin: 10px;
+    font-size: 1.7rem;
+} 
+.storyidimage{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    top: 0;
+    left: 0;
+    margin-left: 36%;
+    margin-top: 25px;
+
+}
+.storyidimage img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+} 
+.storyidimage:nth-child(3){
+    margin-left: 40%;
+    text-decoration: none;
+}
+.storyitems button{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+/* .storylinks audio{ */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* z-index: 1; */
+    /* position: absolute;
+    background-color: aqua;
+} */
+ /* .prevbtn , .nextbtn{
+    z-index: 2;
+ } */
