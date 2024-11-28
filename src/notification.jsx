@@ -1,6 +1,6 @@
 import Mysidebar from "./Sidebar";
 import "./notification.css";
-import Likedprofile from "./images/king.jpg"
+import Likedprofile from "./images/suriya.jpeg"
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
