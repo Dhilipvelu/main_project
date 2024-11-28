@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import explorevideo from "./images/video.mp4"
+import explorevideo from "./images/video1.mp4"
 import Mysidebar from "./Sidebar";
 
 function Myexplore(){
