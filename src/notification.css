@@ -24,11 +24,13 @@ hr{
     height: 40px;
     width: 40px;
     border: 1px solid black;
+    object-fit: contain;
     border-radius: 50%;
 }
 .likedpic img{
     height: 40px;
     width: 40px;
+    object-fit: contain;
     border: 1px solid black;
     border-radius: 5px ;
 }
@@ -55,6 +57,7 @@ hr{
 .notificationimage img{ 
     height: 90%;
     width: 90%;
+    object-fit:cover;
     margin: 30px 70px;
     border-radius: 10px;
     /* background-color: brown; */
@@ -75,6 +78,8 @@ hr{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    object-fit: contain;
+    border: 1px solid black;
     margin: 10px;
 }
 .comments1 {
