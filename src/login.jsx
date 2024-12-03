@@ -70,7 +70,7 @@ import "./login.css"
                 </div>
                 <div className="row account ">
                     <div className="col" style={{textAlign:"center"}}>
-                        <p>Don't have an account? <Link >Sign up</Link></p>
+                        <p>Don't have an account? <Link to="/signup" >Sign up</Link></p>
                     </div>
                 </div>
                                                         
@@ -83,30 +83,7 @@ import "./login.css"
     </div>
 
     
-    {/* :(
-        <div className="loginpage">
-         <div className="login-items">
-             <div className="login-list">
-                 <h1 style={{marginBottom:"20px"}}>Instagram</h1>
-                 <h6 style={{textAlign:"center"}}>Signup to see photos and videos</h6>                               
-                 <h6 style={{textAlign:"center"}}>from your friends</h6>     
-                 <button>Login with Facebook</button>
-                 <hr />
-                 <span>OR</span>
-                 <input type="text" placeholder="Mobile number or email" required/>
-                 <input type="text" placeholder="Full name" required style={{marginTop:"3px"}}/>
-                 <input type="text" placeholder="Username" required style={{marginTop:"3px"}}/>
-                 <input type="text" placeholder="Password" required style={{marginTop:"3px"}}/>
-                 <button>Signup</button>
-                 <p style={{marginTop:"20px",textAlign:"center"}}>Already have an Account?
-                         <Link>Login</Link>
-                 </p>
-              
-             </div>
-     </div>
-             {/* <p className="closebtn"><a href="#"><IoClose/></a></p> */}
-     {/* </div> */}
-    {/* ) */}
+   
     </>
     
                            

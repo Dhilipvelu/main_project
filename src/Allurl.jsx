@@ -8,6 +8,7 @@ import MyNotification from "./notification";
 import Myprofile from "./profile";
 import Mylogin from "./login";
 import Mypost from "./post";
+import Signup from "./signup";
 
 function Myurl(){
 
@@ -24,6 +25,7 @@ function Myurl(){
                 <Route path="/profile" element={<Myprofile/>}></Route>
                 <Route path="/" element={<Mylogin/>}></Route>
                 <Route path="/post" element={<Mypost/>}></Route>
+                <Route path="/signup" element={<Signup/>}></Route>
 
                 </Routes>
         </BrowserRouter>
