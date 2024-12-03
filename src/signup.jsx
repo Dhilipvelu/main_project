@@ -20,7 +20,7 @@ function Signup(){
                  <input type="text" placeholder="Full name" required style={{marginTop:"3px"}}/>
                  <input type="text" placeholder="Username" required style={{marginTop:"3px"}}/>
                  <input type="text" placeholder="Password" required style={{marginTop:"3px"}}/>
-                 <button to="/">Signup</button>
+                 <Link to="/"><button style={{width:"100%"}}>Signup</button></Link>
                  <p style={{marginTop:"10px",textAlign:"center"}}>Already have an Account?
                          <Link to="/">Login</Link>
                  </p>

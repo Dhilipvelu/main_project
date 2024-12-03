@@ -48,7 +48,8 @@ import "./login.css"
                     }
                     else if (Isvalue ==="" && Ispassword ==="")
                     {
-                        alert("Please Enter your Username and password")
+                        alert("Login Successfully")
+                        navigate("/home")
                     }
                     else{
                         alert("Username or password is incorrect")
